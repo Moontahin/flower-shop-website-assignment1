@@ -32,7 +32,7 @@ line-height: normal;
     font-family: Lato;
     font-size: 18px;
     font-style: normal;
-    font-weight: 400;
+    font-weight: 400px;
     line-height: 30px;
     padding: 0px 0px 0px 70px;
 
@@ -45,6 +45,7 @@ display: inline-flex;
 padding: 20px 43px ;
 width:150px;
 height:80px;
+margin-right: 20px;
 }
 .button{
 color: #FFF;
@@ -80,3 +81,207 @@ height: 850px;
 }
 
 
+
+
+   
+
+
+
+
+   .content3 {
+   display: grid;
+   grid-template-columns:20% 20% 20%;
+   align-items: center;
+   justify-content: space-between;
+ 
+ }
+ .image {
+     max-width: 100%;
+     max-height:100%;
+     width: 318px;
+     height: 420px;
+   }
+  
+
+   .header22{
+
+    border-radius: 8px;
+    background: rgba(39, 39, 39, 0.05);
+    width: 1440px;
+height: 320px;
+padding: 230px 20px 10px 10px;
+
+
+   }
+   .content4 {
+    display: grid ;
+    grid-template-columns:20% 20% 20%;
+    align-items: center;
+    padding: 10px 20px 5px 10px;
+  }
+  .img {
+      
+      width: 88px;
+      height: 88px;
+      font-size: 20px;
+      
+    }
+   
+ 
+
+    .content5 {
+        display: grid;
+        grid-template-columns:20% 20% 20%;
+        align-items: center;
+        justify-content: space-between;
+    }
+        .form{
+            display: flex;
+            width: 88px;
+            height: 27.429px;
+            flex-direction: column;
+
+
+            color: #FFF;
+font-family: Lato;
+font-size: 20px;
+font-style: normal;
+font-weight: 700;
+line-height: normal;
+        }
+
+        .content6{
+            text-align: center;
+           
+        }
+
+.head4{
+
+    color: #E55473;
+    font-family: Lato;
+    font-size: 48px;
+    font-style: normal;
+    font-weight: 800;
+    line-height: normal;
+
+
+}
+.white{
+background-color: #FFFFFF;
+
+}
+
+
+.last{
+
+    color: rgba(255, 255, 255, 0.90);
+    text-align: center;
+    font-family: Lato;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 30px;
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.deal{
+    color: #272727;
+    font-family: Lato;
+    font-size: 40px;
+    font-style: normal;
+    font-weight: 800;
+    line-height: normal;
+
+
+}
+.off{
+background-color: #E55473;
+}
+.offer{
+    display: flex;
+width: 594px;
+flex-direction: column;
+flex-shrink: 0;
+
+    color: rgba(39, 39, 39, 0.60);
+text-align: center;
+font-family: Lato;
+font-size: 18px;
+font-style: normal;
+font-weight: 400;
+line-height: 30px;
+}
+.btn{
+
+    color: #FFF;
+font-family: Lato;
+font-size: 20px;
+font-style: normal;
+font-weight: 700;
+line-height: normal;
+}
+.image2{
+
+    width: 318px;
+    height: 420px;
+    flex-shrink: 0;
+    background: url('../images/pngwing\ 8.png'), lightgray 50% / cover no-repeat;
+    background-position: bottom right;
+
+
+}
+.header2{
+
+    width: 1922px;
+    height: 620px;
+
+    border-radius: 8px;
+    background: rgba(229, 84, 115, 0.05);
+
+
+}
+
+
+
+
+
+
+
+.instagram{
+
+    border-radius: 8px;
+    background: rgba(39, 39, 39, 0.05);
+    width: 1440px;
+height: 320px;
+padding: 230px 20px 10px 10px;
+
+
+   }
+   .insta{
+    display: grid ;
+    grid-template-columns:20% 20% 20%;
+    align-items: center;
+    padding: 10px 20px 5px 10px;
+  }
+  .img2 {
+      
+      width: 88px;
+      height: 88px;
+      font-size: 20px;
+      
+    }
