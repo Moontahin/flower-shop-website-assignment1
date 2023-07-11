@@ -1,161 +1,162 @@
-.first{
-
-padding: 30px 30px 0px 150px;
-display: flex;
-align-items: center;
-justify-content: space-between;
-}
-
-.first .content{
+.first {
     display: flex;
-    width: 800px;
-    flex-direction: column;
-    flex-shrink: 0;
-    
+    padding: 30px 30px 0px 150px;
+    align-items: center;
+    justify-content: space-between;
 }
- 
+
+.first a {
+    text-decoration: none;
+    background-color: #E55473;
+    border: 2px solid color #E55473;
+    border-radius: 5px;
+    padding: 15px 30px;
+}
+
+.first .content {
+    width: 800px;
+
+}
 
 .title {
-    font-size: 5rem;
-    padding:70px ;
 
     color: #272727;
-font-family: Lato;
-font-size: 80px;
-font-style: normal;
-font-weight: 800;
-line-height: normal;
+    font-family: Lato;
+    font-size: 80px;
+    font-weight: 800;
+
 }
-.description{
+
+.description {
 
     color: rgba(39, 39, 39, 0.60);
     font-family: Lato;
     font-size: 18px;
-    font-style: normal;
     font-weight: 400px;
     line-height: 30px;
-    padding: 0px 0px 0px 70px;
-
-}
-
-.button{
-    border-radius: 2px;
-background: #E55473;
-display: inline-flex;
-padding: 20px 43px ;
-width:150px;
-height:80px;
-margin-right: 20px;
-}
-.button{
-color: #FFF;
-font-family: Lato;
-font-size: 20px;
-font-style: normal;
-font-weight: 700;
 
 
 }
-.button :hover{
-    background:var(--pink);
+
+.container {
+    max-width: 1200px;
+    margin: 0 auto;
 }
 
-.header{
+.section-title {
+
+    color: black;
+    font-size: 40px;
+    font-weight: 800;
+    text-align: center;
+}
+.section-description{
+    color: black;
+    font-size: 18px;
+    text-align: center;
+
+}
+.header {
     background: rgba(229, 84, 115, 0.10);
     background-image: url('../images/pngwing\ 10.png')no-repeat;
     background-repeat: no-repeat;
     background-position: bottom right;
-    display:flex ;
+    display: flex;
 
-align-items: center;
-background-size: cover;
-width: 1920px;
-height: 850px;
+    align-items: center;
+    background-size: cover;
+    width: 1920px;
+    height: 850px;
 }
-.profile-pic{
+
+.profile-pic {
     width: 635px;
     height: 800px;
     flex-shrink: 0;
-    background-color:  lightgray 50% ;
+    background-color: lightgray 50%;
     padding: 50px 240px;
 }
 
 
 
 
-   
 
 
 
 
-   .content3 {
-   display: grid;
-   grid-template-columns:20% 20% 20%;
-   align-items: center;
-   justify-content: space-between;
- 
- }
- .image {
-     max-width: 100%;
-     max-height:100%;
-     width: 318px;
-     height: 420px;
-   }
-  
 
-   .header22{
+.content3 {
+    display: grid;
+    grid-template-columns: 20% 20% 20%;
+    align-items: center;
+    justify-content: space-between;
+
+}
+
+.image {
+    max-width: 100%;
+    max-height: 100%;
+    width: 318px;
+    height: 420px;
+}
+
+
+.header22 {
 
     border-radius: 8px;
     background: rgba(39, 39, 39, 0.05);
     width: 1440px;
-height: 320px;
-padding: 230px 20px 10px 10px;
+    height: 320px;
+    padding: 230px 20px 10px 10px;
 
 
-   }
-   .content4 {
-    display: grid ;
-    grid-template-columns:20% 20% 20%;
+}
+
+.content4 {
+    display: grid;
+    grid-template-columns: 20% 20% 20%;
     align-items: center;
     padding: 10px 20px 5px 10px;
-  }
-  .img {
-      
-      width: 88px;
-      height: 88px;
-      font-size: 20px;
-      
-    }
-   
- 
+}
 
-    .content5 {
-        display: grid;
-        grid-template-columns:20% 20% 20%;
-        align-items: center;
-        justify-content: space-between;
-    }
-        .form{
-            display: flex;
-            width: 88px;
-            height: 27.429px;
-            flex-direction: column;
+.img {
+
+    width: 88px;
+    height: 88px;
+    font-size: 20px;
+
+}
 
 
-            color: #FFF;
-font-family: Lato;
-font-size: 20px;
-font-style: normal;
-font-weight: 700;
-line-height: normal;
-        }
 
-        .content6{
-            text-align: center;
-           
-        }
+.content5 {
+    display: grid;
+    grid-template-columns: 20% 20% 20%;
+    align-items: center;
+    justify-content: space-between;
+}
 
-.head4{
+.form {
+    display: flex;
+    width: 88px;
+    height: 27.429px;
+    flex-direction: column;
+
+
+    color: #FFF;
+    font-family: Lato;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+}
+
+.content6 {
+    text-align: center;
+
+}
+
+.head4 {
 
     color: #E55473;
     font-family: Lato;
@@ -166,13 +167,14 @@ line-height: normal;
 
 
 }
-.white{
-background-color: #FFFFFF;
+
+.white {
+    background-color: #FFFFFF;
 
 }
 
 
-.last{
+.last {
 
     color: rgba(255, 255, 255, 0.90);
     text-align: center;
@@ -199,7 +201,7 @@ background-color: #FFFFFF;
 
 
 
-.deal{
+.deal {
     color: #272727;
     font-family: Lato;
     font-size: 40px;
@@ -209,33 +211,37 @@ background-color: #FFFFFF;
 
 
 }
-.off{
-background-color: #E55473;
+
+.off {
+    background-color: #E55473;
 }
-.offer{
+
+.offer {
     display: flex;
-width: 594px;
-flex-direction: column;
-flex-shrink: 0;
+    width: 594px;
+    flex-direction: column;
+    flex-shrink: 0;
 
     color: rgba(39, 39, 39, 0.60);
-text-align: center;
-font-family: Lato;
-font-size: 18px;
-font-style: normal;
-font-weight: 400;
-line-height: 30px;
+    text-align: center;
+    font-family: Lato;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 30px;
 }
-.btn{
+
+.btn {
 
     color: #FFF;
-font-family: Lato;
-font-size: 20px;
-font-style: normal;
-font-weight: 700;
-line-height: normal;
+    font-family: Lato;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
 }
-.image2{
+
+.image2 {
 
     width: 318px;
     height: 420px;
@@ -245,7 +251,8 @@ line-height: normal;
 
 
 }
-.header2{
+
+.header2 {
 
     width: 1922px;
     height: 620px;
@@ -262,26 +269,28 @@ line-height: normal;
 
 
 
-.instagram{
+.instagram {
 
     border-radius: 8px;
     background: rgba(39, 39, 39, 0.05);
     width: 1440px;
-height: 320px;
-padding: 230px 20px 10px 10px;
+    height: 320px;
+    padding: 230px 20px 10px 10px;
 
 
-   }
-   .insta{
-    display: grid ;
-    grid-template-columns:20% 20% 20%;
+}
+
+.insta {
+    display: grid;
+    grid-template-columns: 20% 20% 20%;
     align-items: center;
     padding: 10px 20px 5px 10px;
-  }
-  .img2 {
-      
-      width: 88px;
-      height: 88px;
-      font-size: 20px;
-      
-    }
+}
+
+.img2 {
+
+    width: 88px;
+    height: 88px;
+    font-size: 20px;
+
+}
